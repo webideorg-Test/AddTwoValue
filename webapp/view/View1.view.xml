@@ -6,7 +6,7 @@
 				<content>
 					<f:SimpleForm>
 						<Label text="A"></Label>
-						<Input id="a1"></Input>
+					<Input width="100%" value="{path:'/n', type:'sap.ui.model.odata.type.Decimal', formatOptions: { decimals: 2}}"/>
 						<Label text="B"></Label>
 						<Input id="b1"></Input>
 					</f:SimpleForm>
